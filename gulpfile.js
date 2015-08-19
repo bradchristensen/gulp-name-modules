@@ -15,6 +15,6 @@ gulp.task('minify', ['main'], function () {
 		.pipe(uglify())
 		.pipe(rename('gulp-name-modules.min.js'))
 		.pipe(gulp.dest('dist'));
-})
+});
 
 gulp.task('default', ['main', 'minify']);
