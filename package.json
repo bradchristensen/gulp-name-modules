@@ -1,0 +1,41 @@
+{
+  "name": "gulp-name-modules",
+  "version": "1.0.0",
+  "description": " A gulp stream that defines names for anonymous AMD modules based on file paths",
+  "keywords": [
+    "gulp",
+    "amd",
+    "define",
+    "anonymous",
+    "modules",
+    "names",
+    "file",
+    "paths"
+  ],
+  "main": "dist/gulp-name-modules.js",
+  "author": {
+    "name": "Brad Christensen",
+    "email": "brad@christensen.co.nz"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "through2": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bradchristensen/gulp-name-modules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bradchristensen/gulp-name-modules/issues"
+  },
+  "scripts": {
+    "prepublish": "gulp"
+  }
+}
